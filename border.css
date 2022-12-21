@@ -1,0 +1,10 @@
+div{
+    padding: 30px;
+}
+.solid{
+    border:30px solid greenyellow
+    width: 600px;
+    height: 40vh;
+    border-radius:250px
+    text-align:center
+}
