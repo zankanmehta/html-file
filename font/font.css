@@ -1,0 +1,23 @@
+p{
+    background-color: blueviolet;
+    font-family:serif;
+ }
+ span{
+    background-color: lightskyblue;
+     font-family: sans-serif;
+ }
+ h2{
+    background-color:blue;
+     font-family:red serif;
+ }
+ 
+ .ZAn{
+    font-size: 10cm;
+ }
+ p{
+   font-size: 100%;
+   font-size: px,em,rem,; 
+ }
+ ul{
+    background-color: dodgerblue;
+ }
