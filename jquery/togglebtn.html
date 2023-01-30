@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body{
+     
+      }
+        html{
+            font-family:helvetica, sans-serif;
+            max-width:500px;
+            margin:auto;
+            color:#666666;
+   
+          }
+          
+          form{
+            /* background-color: darkcyan; */
+            padding:10px;
+            border:2px solid #3498db;
+            background:#5c5b5b93;
+            border-radius:15px;
+            display:none;
+          
+          
+          }
+          
+          #formButton{
+            border-radius: 28px;
+            font-family: Arial;
+            color:burlywood;
+            font-size: 20px;
+            background:#5c5b5b93;
+            padding: 10px 20px 10px 20px;
+            text-decoration: none;
+            margin:20px;
+           
+          }
+          
+          #formButton:hover{
+            background:darkcyan;
+            text-decoration: none;
+          }
+          
+          b{
+            background-color:#666666;
+            color:bisque;
+          }
+          #submit{
+            border-radius: 28px;
+            font-family: Arial;
+            color:burlywood;
+            font-size: 15px;
+            background:#666666;
+            padding: 10px 20px 10px 20px;
+            text-decoration: none;
+          }
+          
+          #submit:hover{
+            background:darkcyan;
+            text-decoration: none;
+          }
+          .radio{
+            color:burlywood;
+          }
+          
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <button type="button" id="formButton">Toggle Form!</button>
+    
+<form id="form1">
+  <b>First Name:</b> <input type="text" name="firstName">
+    <br><br>
+  <b>Last Name: </b><input type="text" name="lastName">
+    <br><br>
+  <b> Age:</b>
+   <br>
+   <div class="radio">
+  <input type="radio" name="age" value="adolescent"> 0 - 19 years 
+    <br>
+  <input type="radio" name="age" value="mid"> 20 - 59 years 
+    <br>
+  <input type="radio" name="age" value="senior"> 60 + years
+  </div>
+   <br> <br>
+  <b>Preferred Color:</b>
+  <select name="color">
+    <option value="blue">Blue</option>
+    <option value="green">Green</option>
+    <option value="yellow">Yellow</option>
+    <option value="red">Red</option>
+    <option value="pink">Pink</option>
+  </select>
+    <br><br>
+  <b>Comment:</b>
+    <br>
+  <textarea name="comment">
+    Enter your comment here
+  </textarea>
+    <br><br>
+  <button type="button" id="submit">Submit</button>
+  </form>
+</body>
+<script>
+    $(document).ready(function(){
+        $("#formButton").click(function(){
+            $("#form1").toggle();
+        });
+    });
+</script>
+</html>
