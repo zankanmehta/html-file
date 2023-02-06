@@ -1,0 +1,18 @@
+*{
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 50vh;
+    border: 5px solid;
+    background-color: aqua;
+}
+img{
+    width: 200px;
+    height: 40vh;
+    float: right;
+    /* float: left; */
+    margin: 10px;
+
+}
