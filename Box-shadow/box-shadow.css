@@ -1,0 +1,17 @@
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+.container{
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 700px;
+    border: 2px solid;
+    height: 200px;
+    box-shadow: 10px 10px rgba(14, 216, 55, 0.741), -1em 0 0.4em rgb(45, 194, 196);
+}
+.box{
+    font-family: sans-serif;
+    width: 600px;
+    margin: 0 auto;
+}
