@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+section{
+     border: 4px solid red;
+     color: antiquewhite;
+     margin: auto;
+     width: 15%;
+     background-color: darkcyan;
+}
+img{
+    border-radius: 50%;
+    width: 100px;
+    margin: auto;
+    display: block;
+}
+h1{
+    text-align: center;
+}
+.boss{
+    display: inline-block;
+    border: 5px solid blue;
+    background-color: rgba(126, 49, 49, 0.802);
+    margin: 50px;
+    padding: 25px;
+    width: 20%;
+    color: antiquewhite;
+}
+.local{
+    margin: auto;
+    padding: 50px;
+    width: 1200px;
+}
