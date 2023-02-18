@@ -1,0 +1,9 @@
+.container{
+    background-color: rgb(123, 255, 0);
+    border: 5px solid rgb(84, 21, 201);
+    padding: 50px 20px 50px 20px;
+    margin:20px 50px 10px 30px;
+    height: 455px;
+    width: 300px;
+    box-sizing: border-box;
+}
