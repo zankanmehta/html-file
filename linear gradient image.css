@@ -1,0 +1,8 @@
+h1{
+    background: url(./images.jpg);
+    -webkit-background-clip: text;
+    background-size: 100% 100%;
+    color: transparent;
+    font-size: 100px;
+    background-clip: text;
+}
