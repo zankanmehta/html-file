@@ -1,0 +1,8 @@
+h1 {
+    background-image: linear-gradient( orange, #ffffff, green);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 100px;
+}
