@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>
+            element selector
+        </h1>
+        <p class="hello">class selector,child and decendent selector</p>
+        <p id="div">id selector,child and decendent selector</p>
+        <p>this is decendent selector andchild selector</p>
+        <section>
+            <p>this is also decendent selector but not child selector</p>
+        </section>
+    </div>
+    <h2>this is adjacent sibling selector (Applies style to most frequent element after closing of parent class)</h2>
+    <p>this is general sibling selector(~)</p>
+    <div>
+        <p>this is not adjacent sibling selector(+)</p>
+        <section>
+            <p>this is not adjacent sibling selector</p>
+        </section>
+        <p>this is adjacent sibling selector(+)</p>
+        <p>this is general sibling selector(~)[Applies style to all elements except most frequent element to parent class]</p>
+        <p>this is general sibling selector(~)</p>
+        <p>this is general sibling selector(~)</p>
+        
+    </div>
+    
+</body>
+</html>

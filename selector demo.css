@@ -1,0 +1,43 @@
+h1{
+    background-color: pink;
+    text-align: left;
+}
+.hello
+{
+    background-color: cyan;
+    text-align: center;
+    
+}
+#div
+{
+    background-color: black;
+    text-align: right;
+    
+}
+*{
+    font-style: italic;
+}
+div p{
+    color:seagreen;
+}
+div>p{
+    font-size: x-large;
+
+}
+div+h2{
+    background-color: black;
+    color: white;
+}
+section+p{
+    background-color: black;
+    color: white;
+
+}
+div~p{
+    background-color: bisque;
+    color: maroon;
+}
+section~p{
+    background-color: bisque;
+    color: maroon;
+}
