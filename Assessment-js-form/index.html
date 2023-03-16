@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        input[type=text]{
+            width: 250px;
+            margin: 5px 0;
+        }
+        input[type=email]{
+            width: 250px;
+            margin: 5px 0;
+        }
+        input[type=tel]{
+            width: 250px;
+            margin: 5px 0;
+        }
+        input[type=password]{
+            width: 250px;
+            margin: 5px 0;
+        }
+        input[type=submit]{
+            background-color: rgb(8, 189, 8);
+            border: none;
+            border-radius: 5px;
+            padding: 7px 10px;
+            color: aliceblue;
+            font-weight: 700;
+        }
+        p{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <fieldset>
+        <form action="" onsubmit="return validform()">
+            <table>
+            <tr>
+            <td><label for="first name">first name</label></td>
+            <td><input type="text" name="" id="username" placeholder="first name"></td>
+            <td><p id="usererror"></p></td>
+            </tr>
+            <tr>
+            <td><label for="last name">last name</label></td>
+            <td><input type="text" name="" id="lastname" placeholder="last name"></td>
+            </tr>
+            <tr>
+            <td><label for="email">email</label></td>
+            <td><input type="email" name="" id="email" placeholder="email"></td>
+            </tr>
+            <tr>
+            <td><label for="mobile">mobile</label></td>
+            <td><input type="tel" name="" id="tel" placeholder="mo.number"></td>
+            <td><p id="telerror"></p></td>
+            </tr>
+            <tr>
+            <td><label for="gender">gender</label></td>
+            <td><input type="radio" name="male" id="male">male
+            <input type="radio" name="male" id="female">female</td>
+            </tr>
+            <tr>
+            <td><label for="dob">DOB</label></td>
+            <td><input type="date" name="" id="dob"></td>
+            </tr>
+            <tr>
+            <td><span>address</span></td>
+            <td><textarea name="" id="" cols="32" rows="8" placeholder="address"></textarea></td>
+            </tr>
+            <tr>
+            <td><span>city:</span></td>
+            <td><input type="text" name="" id=""></td>
+            </tr>
+            <tr>
+            <td><span>state</span></td>
+            <td><input type="text" name="" id=""></td>
+            </tr>
+            <tr>
+            <td><span>Area PIN</span></td>
+            <td><input type="text" name="" id=""></td>
+            </tr>
+            <tr>
+            <td><span>Qualification</span></td>
+            <td><select name="" id="" value="select Qualification">
+                <option value="b.com">B.com</option>
+                <option value="BBA">BBA</option>
+                <option value="bca">bca</option>
+            </select></td>
+            </tr>
+            <tr>
+            <td><span>Specialition</span></td>
+            <td>
+                <input type="checkbox" name="" id="">computer scince
+                <input type="checkbox" name="" id="">information technology
+                <input type="checkbox" name="" id="">computer architecture
+                <input type="checkbox" name="" id="">Tele communication
+            </td>
+            </tr>
+            <tr>
+            <td><span>password</span></td>
+            <td><input type="password" name="" id="password"></td>
+            <td><p id="passerror"></p></td>
+            </tr>
+            <tr>
+            <td><input type="submit" value="registered"></td>
+            </tr>
+            </table>
+        </form>
+    </fieldset>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>

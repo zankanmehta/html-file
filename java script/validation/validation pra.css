@@ -1,0 +1,22 @@
+.conteiner{
+    background-color:darkcyan;
+    width: 600px;
+    margin: auto;
+}
+.box{
+    text-align: center;
+    padding-top: 30px;
+}
+.box input{
+    padding: 5px 10px;
+    width: 200px;
+}
+.box{
+    padding-bottom: 50px;
+}
+p{
+    color:brown;
+}
+h1{
+    color: brown;
+}
