@@ -1,0 +1,450 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg{
+    background-image: url(./img/main.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    margin: 0 auto;
+    width: 1190px;
+    
+}
+.le li{
+    list-style: none;
+}
+.le ul{
+    line-height: 90px;
+    display: flex;
+
+}
+.hr{
+    background-color: #303030;
+}
+.row img{
+    vertical-align: middle;
+}
+.le ul li a{
+    text-decoration: none;
+    margin: 0 25px;
+    font-size: 24px;
+    color: white;
+}
+.le ul li a:hover{
+    color: orange;
+    
+}
+.jsc{
+    justify-content: space-between;
+}
+.icon{
+    color: white;
+    font-size: 30px;
+}
+.title h1{
+    font-size: 100px;
+    color: white;
+    margin-left:20px;
+    padding-top: 80px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+.title{
+    margin-top: 100px ;
+    padding-top: 100px;
+}
+.title p{
+    color: white;
+    margin: 0 0 20px 30px;
+    font-family: sans-serif;
+    width: 50%;
+    margin-left: 30px;
+    padding-top: 20px;
+
+}
+.title input{
+    margin: 20px 0 40px 30px;
+    padding: 10px 30px;   
+    border-radius: 4px;
+    background-color: #e8631c;
+    color: white;
+    border: none;
+}
+.next-sec{
+    background-color: #e8631c;
+    min-height: 730px;
+    overflow: hidden;
+}
+.w-100{
+    width: 100%;
+}
+.posi{
+    position: relative;
+}
+.ab{
+    position: absolute;
+ 
+}
+.ab-img{
+    position: absolute;
+    left: -500px;
+    top: -450px;
+}
+.text h2{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    padding: 60px 0 30px 0;
+    font-family: sans-serif;
+    
+}
+.text p{
+    width: 60%;
+    text-align: center;
+    color: white;
+    padding: 0 0 50px 0;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+.col-30{
+    width: 30%;
+}
+.col-30 img{
+    width: 100%;
+   
+}
+.cart-bg{
+    background-color: #303030;
+    
+}
+.cart-bg h2{
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 15px;
+}
+.cart-bg p{
+    color: white;
+    width: 90%;
+    text-align: center;
+    padding:10px 0 30px 25px;
+    font-family: sans-serif;
+}
+.po-ab{
+    position: absolute;
+    top: -390px;
+    left: -400px;
+}
+.text-sec{
+    background-color: #303030;
+    min-height: 675px;
+    overflow: hidden;
+}
+.jc{
+    justify-content: space-evenly;
+}
+.card-bg{
+    text-align: center;
+    background-color: #e8631c;
+    border-radius: 8px;
+}
+.card-bg h3{
+    color: white;
+    font-family: sans-serif;
+}
+.card-bg p{
+    color: white;
+    margin: 15px 0 10px 0;
+    font-family: sans-serif;
+}
+.card-bg i{
+    color: white;
+    font-size: 80px;
+    margin: 50px 0;
+}
+
+.card-bg input{
+    margin: 30px 0;
+    width: 250px;
+    padding: 10px;
+    background-color: #303030;
+    color: white;
+    border-radius: 5px;
+    border: none;
+  
+}
+.pos-ab{
+    position: absolute;
+    right: -330px;
+    top: 50px;
+}
+.image-sec{
+    background-color: #e8631c;
+    overflow: hidden;
+    position: relative;
+ }
+.posi-ab-end{
+    position: absolute;
+    top: 371px;
+    right: 650px;
+}
+.posi-ab-st{
+    position: absolute;
+    top: 350px;
+    left: 700px;
+}
+.row{
+    align-items: center;
+
+}
+.col-50{
+    width: 50%;
+}
+.col-50 img{
+    width: 100%;
+}
+.col-50 h3{
+    font-size: 40px;
+    color: white;
+    font-family: sans-serif;
+    padding-bottom: 25px;
+    margin-left: 100px;
+
+}
+.col-50 p{
+    width: 70%;
+    margin: 10px 0 30px 100px;
+    color: white;    
+    font-family: sans-serif;
+}
+.col-50 input{
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: 10px ;
+    width: 185px;
+    background-color: #303030;
+    color: white;
+    border-radius: 4px;
+    border: none;
+}
+.tex-sec{
+    background-color: #303030;
+
+}
+.text-1{
+    text-align: center;
+}
+.text-1 h3{
+    font-size: 50px;
+    color: white;
+    padding: 100px 0 30px 0;
+    font-family: sans-serif;
+}
+.text-1 p{
+    max-width: 60%;
+    color: white;
+    margin: 0 auto;
+    font-family: sans-serif;
+
+}
+.margin{
+    margin-top: 90px;
+    padding-bottom: 70px;
+}
+.rs{
+    font-size: 3em;
+    color: white;
+    justify-content: space-around;
+    font-family: sans-serif;
+
+}
+.contain{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 90px;
+    font-size: 25px;
+    justify-content: space-around;
+    font-family: sans-serif;
+}
+.text-secti{
+    background-color: #738c7c;
+    background-image: linear-gradient(rgba(255, 68, 0, 0.574) , rgba(255, 166, 0, 0.571)) , url(./img/Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\)\ \(7\).png);
+    background-size: cover;
+    width: 100%;
+
+}
+.tex{
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+.texts{
+    margin-bottom: 100px;
+}
+.lorem{
+    margin-top: 100px;
+    text-align: center;
+}
+.lorem p{
+    color: white;
+    width: 50%;  
+    padding-top: 100px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 30px;
+
+}
+.lorem h3{
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+    
+}
+.sec{
+   background-color: #e8631c;
+   overflow: hidden;
+   min-height: 400px;
+}
+.posit-ab-right{
+    position: absolute;
+    right: 536px;
+    top: -95px;
+
+}
+.posit-ab-left{
+    position: absolute;
+    left: 400px;
+    top: -227px;
+    
+}
+.text-2 h3{
+    font-size: 30px;
+    text-align: center;
+    padding: 80px 0 30px 0;
+    color: white;
+    font-family: sans-serif;
+    
+}
+.text-2 p{
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    color: white;
+    font-family: sans-serif;
+
+}
+.ty{
+    justify-content: center;
+    
+}
+input:focus{
+    outline: none;
+
+}
+.ty input[type=text]{
+    width: 350px;
+    padding:6px; 
+    margin: 50px 0 90px 0;
+}
+.ty input[type=button]{
+    padding: 8px 15px;
+    background-color: #303030;
+    color: white;
+    border: none;
+    margin-bottom: 40px;
+   
+}
+.ftr{
+    background-color: #303030;
+    padding: 50px 0;
+}
+.col-1{
+    width: 40%;
+}
+.col-1 ul{
+    color: aliceblue;
+    list-style: none;
+    text-decoration: none;
+    
+}
+.col-1 h3{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.col-1 p{
+    width: 60%;
+    font-family: sans-serif;
+}
+.col-1 i{
+    font-size: 20px;
+    padding: 3px;
+    margin-left: 20px;
+}
+.col-2 ul{
+    color: aliceblue;
+    list-style: none;
+    text-decoration: none;
+    
+}
+.br h3{
+    font-size: 30px;
+    /* padding: 30px; */
+    font-family: sans-serif;
+}
+.col-2 ul a{
+    color: aliceblue;
+    list-style: none;
+    text-decoration: none;
+    line-height: 30px;
+    font-family: sans-serif;
+}
+@media (min-width: 786px){
+}
+@media (max-width: 786px){
+    .container{
+        width: 700px;
+        margin: 0 10px;
+    }
+
+    .title{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .bg{
+        background-image: url(./img/main.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .next-sec{
+        min-height: 1630px;
+    }
+    .text-sec{
+        min-height: 1430px;
+    }
+    .col-30{
+        width: 51%;
+        margin: 10px auto;
+
+    }
+    .col-50{
+        width: 51%;
+        margin: 10px auto;
+    }
+    .text-secti{
+        background-image: linear-gradient(rgba(255, 68, 0, 0.574) , rgba(255, 166, 0, 0.571)) , url(./Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\)\ \(7\).png);
+        background-size: cover;
+        background-position: center;
+    }
+}
