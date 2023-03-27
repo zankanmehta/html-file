@@ -1,0 +1,500 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg{
+    background-image: url(./imgs/Place\ Your\ Design\ Here\ \(Double\ Click\ to\ Edit\)\ \(2\).png);
+    padding-bottom: 28px;
+}
+.size{
+    padding-bottom: 100px;
+    margin-bottom: 80px;
+}
+.container{
+    width: 1180px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.jsc{
+    justify-content: space-between;
+}
+.name a{
+    text-decoration: none;
+    opacity: 0.780;
+    font-size: 25px;
+    color: #ffffff;
+    font-family: sans-serif;
+    line-height: 120px;
+
+}
+.links ul{
+    display: flex;
+    list-style: none;
+}
+.links li a{
+    text-decoration: none;
+    opacity: 0.780;
+    font-size: 25px;
+    color: #ffffff;
+    font-family: sans-serif;
+    margin: 0 0 0 30px;
+    line-height: 120px;
+}
+.links li a:hover{
+    color: gold;
+    text-decoration: underline;
+}
+.mrg{
+    margin: 77px 0 0 0;
+    padding-top: 1px;
+}
+.text{
+    text-align: center;
+    margin: 100px auto;
+    background-image: linear-gradient(#ffffffc0, #ffffffc0);
+    padding: 90px 40px;
+    width: 600px;
+}
+.text h2{
+    font-size: 80px;
+    color: #2c3a42;
+    font-weight: 400;
+    font-family: "Cookie";
+}
+.text h3{
+    font-size: 65px;
+    text-transform: uppercase;
+    color: #ad6c12;
+    font-weight: 600;
+    font-family:sans-serif;
+}
+.text button{
+    background-color: #ffffff;
+    padding: 8px 40px;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #26363a;
+    border: none;
+}
+.sec-two{
+    background-color: #2a3b40;
+    padding: 50px 0;
+}
+.col-50{
+    width: 50%;
+}
+.photo img{
+    width: 100%;
+}
+.text-two h3{
+    color: #ffffff;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin: 100px 0 30px 0;
+}
+.text-two p{
+    color: #ffffff;
+    width: 90%;
+    font-family: sans-serif;
+}
+.sec-three{
+    background-color: #2a3b40;
+    background-image: linear-gradient(#ffffffc0, #ffffffc0);
+}
+.col-30{
+    width: 30%;
+}
+.text-three{
+    margin: 80px 0;
+}
+.text-three h4{
+    color:  #2a3b40;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: 20px 0;
+}
+.text-three p{
+    font-family: sans-serif;
+    width: 80%;
+    color:  #2a3b40;
+}
+.text-three i{
+    color:  #2a3b40;
+}
+.sec-four{
+    background-image: url(./imgs/Place\ Your\ Design\ Here\ \(Double\ Click\ to\ Edit\)\ \(4\).png);
+    padding:60px 0 29px 0 ;
+
+}
+.text-four{
+    text-align: center;
+    background-image: linear-gradient(#ffffffc0, #ffffffc0);
+    width: 1000px;
+    margin: 50px auto;
+}
+.text-four h2{
+    font-size: 77px;
+    color: #304751;
+    font-weight: 400;
+    font-family: "Cookie";
+    padding-top: 40px;
+}
+.text-four h3{
+    font-size: 67px;
+    color:  #ad6c12;
+    font-weight: 400;
+    font-family: sans-serif;
+    margin: 0 0 50px 0;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    grid-template-rows: repeat(3, 254px);
+    
+}
+.grid img{
+    width: 100%;
+}
+.text-four h4{
+    font-size: 18px;
+    color: #304751;
+    font-family: sans-serif;
+    margin: 60px 0 20px 0;
+}
+.text-four p{
+    color: #304751;
+    font-family: sans-serif;
+    width: 70%;
+    margin: 18px auto;
+}
+.text-four button{
+    color: #304751;
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0.8;
+    border: none;
+}
+.sec-five{
+    background-color: #2a3b40;
+    background-image: linear-gradient(#ffffffc0, #ffffffc0);
+    position: relative;
+}
+.ab-lt{
+    position: absolute;
+}
+.ab-rt{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.text-five{
+    text-align: center;
+    padding: 88px 0;
+}
+.text-five h3{
+    font-size: 30px;
+    font-family: sans-serif;
+    color:  #2a3b40;
+    margin-bottom: 25px;
+}
+.text-five p{
+    font-family: sans-serif;
+    color: #26363a;
+    width: 50%;
+    margin: 30px auto;
+}
+.text-five i{
+    color:  #2a3b40;
+    margin-bottom: 40px;
+}
+.text-five span{
+    font-family: sans-serif;
+    color:  #2a3b40;
+    font-weight: 600;
+    margin: 0 20px;
+}
+.sec-six{
+    background-image: url(./imgs/Place\ Your\ Design\ Here\ \(Double\ Click\ to\ Edit\)\ \(13\).png);
+    padding: 100px 0 0 0;
+    background-size: cover;
+}
+.back-g{
+    background-image: linear-gradient(#ffffffc0, #ffffffc0);
+    margin-top: 100px;
+}
+.texts{
+    text-align: center;
+}
+.texts h2{
+    font-size: 67px;
+    color: #304751;
+    font-weight: 400;
+    font-family: "Cookie";
+    margin-top: 100px;
+    padding-top: 30px;
+}
+.texts h3{
+    font-size: 57px;
+    color:  #ad6c12;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+.text-six{
+    display: flex;
+    margin: 30px 0;
+}
+.photos img{
+    background-color: #ffffff;
+    border-radius: 60%;
+    padding: 10px;
+}
+.tex{
+    margin: 0 0 0 10px;
+}
+.tex h5{
+    font-size: 20px;
+    font-family: sans-serif;
+    color:  #2a3b40;
+}
+.tex p{
+    font-family: sans-serif;
+    color:  #2a3b40;
+    width: 70%;
+}
+.tx{
+    margin-left: 10px;
+}
+.tx h5{
+    font-size: 20px;
+    font-family: sans-serif;
+    color:  #2a3b40;
+}
+.tx p{
+    font-family: sans-serif;
+    color:  #2a3b40;
+    width: 80%;
+}
+.photo-one img{
+    width: 100%;
+}
+.sec-seven{
+    background-color: #2a3b40;
+    padding-bottom: 40px;
+}
+.text-seven h3{
+    font-size: 65px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 40px;
+}
+.tex-one{
+    display: flex;
+    margin: 20px 0 30px 0;
+}
+.tex-one p{
+    color: #ffffff;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+}
+.tex-one select{
+    width: 200px;
+    padding: 8px 0;
+    border: #ffffff solid;
+    border-radius: 8px;
+    background-color: #2a3b40;
+
+}
+.tex-one input{
+    width: 200px;
+    padding: 8px 0;
+    background-color: #2a3b40;
+    border: #ffffff solid;
+    border-radius: 8px;
+}
+#box{
+    color: #ffffff;
+}
+.tex-one input[type=date]{
+    color: #ffffff;
+}
+.tex-one input[type=time]{
+    color: #ffffff;
+}
+.tex-two{
+    display: flex;
+    margin-bottom: 40px;
+}
+.tex-two input{
+    width: 200px;
+    padding: 8px 10px;
+    background-color: #2a3b40;
+    border: #ffffff solid;
+    border-radius: 8px;
+    color: #ffffff;
+}
+.tex-two input::placeholder{
+    color: #ffffff;
+}
+.tex-two p{
+    color: #ffffff;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+}
+.form button{
+    display: block;
+    margin: 10px auto;
+    background-color: #2a3b40;
+    color: #ffffff;
+    padding: 8px 70px;
+    border-radius: 8px;
+    border: solid #ffffff;
+}
+.pht img{
+    width: 100%;
+}
+.sec-eight{
+    background-color: #2a3b40;
+    background-image: linear-gradient(#ffffffc0, #ffffffc0);
+    padding: 0 0 80px 0;
+}
+.jc{
+    justify-content: space-around;
+}
+.text-eight{
+    text-align: center;
+}
+.text-eight h3{
+    font-size: 47px;
+    color: #304751;
+    font-weight: 400;
+    font-family: "Cookie";
+    margin-top: 50px;
+}
+.text-eight h4{
+    font-size: 57px;
+    color:  #ad6c12;    
+    font-weight: 400;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+.col-30 img{
+    width: 100%;
+    display: block;
+}
+.tex-three{
+    background-color: #ffffff;
+    padding: 14px 16px 20px 16px;
+}
+.tex-three h6{
+    font-family: sans-serif;
+    padding: 20px 0;
+    font-size: 12px;
+    color: #2a3b40;
+}
+.tex-three h5{
+    font-family: sans-serif;
+    color: #2a3b40;
+}
+.tex-three p{
+    font-family: sans-serif;
+    padding: 0 0 25px 0;
+    color: #2a3b40;
+}
+.tex-three h4{
+    font-family: sans-serif;
+    color: #2a3b40;
+    border-bottom:solid  #ad6c12 5px;
+    width: 100px;
+}
+.sec-nine{
+    background-color: #2a3b40;
+    padding: 0 0 20px 0;
+}
+.text-nine{
+    text-align: center;
+    padding: 40px 0 30px 0;
+}
+.text-nine span{
+    font-size: 50px;
+    color: #ffffff;
+}
+.text-nine p{
+    color: #ffffff;
+    font-family: sans-serif;
+    width: 50%;
+    margin: 20px auto;
+    line-height: 25px;
+}
+.text-nine h5{
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 0 0 30px 0;
+}
+.icon i{
+    background-color: #ffffff;
+    border-radius: 50%;
+    color: #2a3b40;
+    padding: 6px;
+    font-size: 25px;
+    margin: 0 10px;
+}
+.sec-ten{
+    background-color: #2a3b40;
+    background-image: linear-gradient(#ffffffc0, #ffffffc0);
+    padding: 0 0 50px 0;
+
+}
+.jc-e{
+    justify-content: space-evenly;
+}
+.footer p{
+    width: 40%;
+    color: #26363a;
+    font-family: sans-serif;
+}
+.footer .pdn{
+    margin: 40px 0 20px 0;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.footer ul{
+    list-style: none;
+}
+.footer li a{
+    text-decoration: none;
+    color: #26363a;
+    font-family: sans-serif;
+    line-height: 25px;
+}
+.footer .bolt a{
+    font-weight: 600;
+}
+@media(max-width:786px) {
+    .container{
+        width: 700px;
+        margin: 0 auto;
+    }
+    .bg{
+        background-image: url(./imgs/Place\ Your\ Design\ Here\ \(Double\ Click\ to\ Edit\)\ \(2\).png);
+        background-position: center;
+    }
+    .col-30{
+        width: 51%;
+        margin: 10px auto;
+    }
+    .col-50{
+        width: 51%;
+        margin: 10px auto;
+    }
+    .grid{
+        grid-template-columns: repeat(2, 250px);
+
+    }
+}
